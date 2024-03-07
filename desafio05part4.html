@@ -15,6 +15,7 @@
     <main>
         <section>
             <form method="post" action="#">
+                <!--Primeira linha-->
                 <fieldset>
                     <legend>Dados pessoais</legend>
                     <label>Nome</label>
@@ -29,6 +30,7 @@
                     <input type="email" name="Email" placeholder="a@a.com" required>
                 </fieldset>
 
+                <!--Segunda linha-->
                 <fieldset>
                     <legend>Endereço</legend>
                     <label>Endereço</label>
@@ -37,47 +39,64 @@
                     <input type="number" name="cidade" placeholder="digite sua cidade" required>
                     <label>Estado</label>
                     <form action="#">
-                        <select name="estados" 
-                        <option value="São Paulo">São Paulo
-                        <option value="São Paulo">São Paulo
-                        <option value="São Paulo">São Paulo
-                        <option value="São Paulo">São Paulo</option>
+                        <select name="estados" >
+                        <option value="São Paulo">Rio de Janeiro </option>
+                        <option value="São Paulo">Espírito Santo </option>
+                        <option value="São Paulo">Minas Gerais</option>
                         <option value="São Paulo">São Paulo</option>
                         </select>
-                        
-                        
-
                     </form>
                 </fieldset>
-                <fieldset>
-                    <legend>Carro</legend>
-                    <label>Modelo de Carro</label>
-                    <select name="carro" required>
-                        <option value="">Escolha um carro</option>
-                        <optgroup label="Volkswagem">
-                            <option value="gol">Gol</option>
-                            <option value="golf">Golf</option>
-                            <option value="fox">Fox</option>
-                        </optgroup>
-                        <optgroup label="Fiat">
-                            <option value="uno">Uno</option>
-                            <option value="siena">Siena</option>
-                            <option value="Palio">palio</option>
-                        </optgroup>
-                        <optgroup label="Nissan">
-                            <option value="frontier">Frontier</option>
-                            <option value="skyline">Skyline GT-R</option>
-                        </optgroup>
-                    </select>
-                </fieldset>
+                
+                <!--Teerceira linha-->
+                    <fieldset>
+                        <legend>Planos do fã clube</legend>
+                        <input type="radio" name="Plano" id="animal-sim" value="sim" checked required>
+                        <label>Speak Now</label>
+                        <input type="radio" name="Plano" id="animal-sim" value="sim" checked required>
+                        <label>Fearless</label>
+                        <input type="radio" name="Plano" id="animal-sim"  value="sim" required>
+                        <label>Lover</label>
+                        <input type="radio" name="Plano" id="animal-sim"  value="sim" required>
+                        <label>Reputation</label>
+                        <input type="radio" name="Plano" id="animal-sim"  value="sim" required>
+                        <label>Red</label>
+                    </fieldset>
+
+                    <!--Caixinha de sugestões-->
+                    <fieldset>
+                        <legend>Como você descreve a cantora Taylor Swift?</legend>
+                       <textarea name="sugestao" style="resize: none" required="yes" rows="7"
+                        cols="50"></textarea>
+                        <br>
+                        <button type="submit">Envie sua resposta</button>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Termos do usuário</legend>
+                        <input type="checkbox" id="checkbox-Termos" name="Termos de usuário[]" value="termos">
+                        <label for="checkbox-Termos">Aceito os termos de usuário</label>
+                        <input type="checkbox" id="checkbox-notificações" name="notificar o usuário[]" value="notificações">
+                        <label for="checkbox-notificações">Desejo receber notificações do Fã Clube da Taylor Swift</label>
+                    <br>
+                </form>
+            </section>
+            &nbsp;
+            <br>
+            <button type="submit">Enviar dados</button>
+        </main>                 
                 <br>
-                <button typt="submit"> Enviar dados</button>
-            </form>
-        </section>
-    </main>
-    <hr>
-    <footer>
-        <p>Copyright 2024 - Movida</p>
-    </footer>
+        <!--Voltar-->
+        <a href="file:///C:/Users/Aluno2/Documents/GitHub/CursoSenaiWeb/desafio05.html" target="_blanck" >Voltar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <!--Rodapé final-->
+        <hr>
+    <div align="center">
+        <footer>Copyright 2024 &copy; - Tec. Multimídia</footer>
+    </div>
+    <div align="center">
+        <footer>Santa Cruz do Rio Pardo</footer>
+    </div>
+
 </body>
 </html>
