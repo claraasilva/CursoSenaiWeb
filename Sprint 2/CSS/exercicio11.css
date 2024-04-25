@@ -46,13 +46,45 @@ a:hover{
 }
 .menu_down{
     background-color: #36c8f0;
-    height: 50px;
+    height: 40px;
     text-align: center;
 }
-.menu{
+
+.menu ul li{
+    background-color: #36c8f0;
+    width: 150px;
+    height: 40px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
     position: relative;
-    top: 15px;
-    border-right: solid 2px #ef5a2c;
-    padding: 10px;
+
 }
+.menu ul li:hover{
+    background-color: blue;
+    
+}
+
+.menu ul{
+    padding: 0;
+    max-width: 800px;
+}
+menu ul ul{
+    display: none;
+}
+
+menu ul li:hover{
+    display: block;
+}
+
+.menu ul ul ul {
+    margin-left: 131px;
+    position: absolute;
+    top: 0px;
+}
+menu ul ul ul li:hover{
+    background-color: blue;
+}
+
 .clear{clear: both;}
