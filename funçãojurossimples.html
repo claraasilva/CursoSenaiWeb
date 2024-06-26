@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Função Juros Simples</title>
+
+    <script>
+        function calcularJurosSimples(x,y,z) {
+            var resultado = x*y*z;
+            return resultado;
+        }
+
+        var c = parseFloat(prompt('Digite o valor do Capital:'));
+        var i = parseFloat(prompt('Digite a taxa de juros (valor em decimal):'));
+        var t = parseInt(prompt('Digite o tempo:'));
+
+
+        var produto = calcularJurosSimples(c,i,t);
+        document.write(produto);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html
